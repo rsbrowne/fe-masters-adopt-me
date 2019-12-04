@@ -59,3 +59,14 @@ typings/
 
 # next.js build output
 .next
+
+# Stupid mac shit
+.DS_Store
+
+.cache/
+
+dist/
+
+coverage/
+
+.vscode/
