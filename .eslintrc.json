@@ -7,6 +7,10 @@
     "prettier",
     "prettier/react"
   ],
+  "rules": {
+    "react/prop-types": 0,
+    "no-console": 1
+  },
   "plugins": [
     "react",
     "import",
@@ -23,5 +27,10 @@
     "es6": true,
     "browser": true,
     "node": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }
