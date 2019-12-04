@@ -11,7 +11,7 @@ const App = () => {
       <Pet name="Streak" animal="Bird" breed="Cockatiel" />
       <Pet name="Shadow" animal="Cat" breed="Black" />
     </div>
-  )
+  );
 };
 
-render(React.createElement(App), document.getElementById("root"));
+render(<App />, document.getElementById("root"));
